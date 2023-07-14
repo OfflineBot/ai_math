@@ -1,17 +1,17 @@
 # ai_math: Math library for AI
 ## Reinforcement Learning
-### max
+### max()
 + get highest value in vec
-### argmax
+### argmax()
 + get index of highest value in vec
-### divmod
+### divmod()
 + get quotient and modulo of 2 numbers
-### find_item
+### find_item()
 + get position of char in 2d vec of chars
-### grid_size
+### grid_size()
 + get size of 2d vec of chars
-## Deep Learning
-### sigmoid + derivative
+## Deep Learning()
+### sigmoid() and deriv_sigmoid()
 + sigmoid function + the derivative of sigmoid function
-### relu + derivative
+### relu() and deriv_relu()
 + relu function + the derivative of relu function
