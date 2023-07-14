@@ -1,5 +1,6 @@
 # ai_math: Math library for AI
 ## Reinforcement Learning
+Each rl function as a ndarray support with nd_ before the name of the function!
 ### max()
 + get highest value in vec
 ### argmax()
