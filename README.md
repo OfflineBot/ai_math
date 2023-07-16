@@ -1,16 +1,20 @@
 # ai_math: Math library for AI
+## General Functions
+### softmax() + nd_softmax()
++ Calculate the probability (not tested yet)
 ## Reinforcement Learning
-Each rl function as a ndarray support with nd_ before the name of the function!
-### max()
-+ get highest value in vec
-### argmax()
-+ get index of highest value in vec
+The nd_ version of the function is a probably faster and more efficient way but requires the ndarray crate.
+All Deep Learning functions require the ndarray crate.
+### max() + nd_max()
++ Get highest value in vec
+### argmax() + nd_argmax()
++ Get index of highest value in vec
 ### divmod()
-+ get quotient and modulo of 2 numbers
-### find_item()
-+ get position of char in 2d vec of chars
-### grid_size()
-+ get size of 2d vec of chars
++ Get quotient and modulo of 2 numbers
+### find_item() + nd_find_item()
++ Get position of char in 2d vec of chars
+### grid_size() + nd_grid_size()
++ Get size of 2d vec of chars
 ## Deep Learning()
 ### sigmoid() and deriv_sigmoid()
 + sigmoid function + the derivative of sigmoid function
