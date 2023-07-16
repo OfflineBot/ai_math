@@ -1,7 +1,7 @@
 # ai_math: Math library for AI
 ## General Functions
 ### softmax() + nd_softmax()
-+ Calculate the probability (not tested yet)
++ Calculate the probability
 ## Reinforcement Learning
 The nd_ version of the function is a probably faster and more efficient way but requires the ndarray crate.
 All Deep Learning functions require the ndarray crate.
